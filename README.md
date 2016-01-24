@@ -4,9 +4,9 @@ Traditionally JavaScript didn't have any out-of-the-box way to modularize code. 
 
 We use a simple web app called *Github Repository Viewer* to show how it can be modularized. The application itself allows you to enter the name of a Github organization and displays the repositories owned by the organization, sorted by their star ratings. Here's a screen shot of the application.
 
-![Github Repository Viewer](assets/github-repository-viewer.png)
+<img src="assets/github-repository-viewer.png" width="400">
 
-The simplest implementation is in the `plain-old-javascript` folder which uses (obviously) plain old JavaScript and the tried-and-tested *Revealing Module Pattern* to modularize the app, specifically the [GithubService](). Other folders focus on different combinations of module definition specifications (such as ES2015 and TypeScript), module loaders and front-end frameworks. For example, the folder `es2015-systemjs` uses the ES2015 module specification along with the SystemJS module loader. Each folder contains a README.md file that describes the specifics of the environment.
+The simplest implementation is in the `plain-old-javascript` folder which uses (obviously) plain old JavaScript and the tried-and-tested *Revealing Module Pattern* to modularize the app, specifically the [GithubService](https://github.com/archfirst/js-module-loader-examples/blob/master/plain-old-javascript/src/github.service.js). Other folders focus on different combinations of module definition specifications (such as ES2015 and TypeScript), module loaders and front-end frameworks. For example, the folder `es2015-systemjs` uses the ES2015 module specification along with the SystemJS module loader. Each folder contains a README.md file that describes the specifics of the environment.
 
 If there is a module specification/loader that is not covered by this project and your are really passionate about it, please feel free to send us a pull request with your contribution. Note that you should create a separate directory for your contribution based on the guidelines above.
 

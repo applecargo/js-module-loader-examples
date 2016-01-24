@@ -1,0 +1,12 @@
+{
+    "extends": "../.jshintrc",
+
+    // jQuery
+    "jquery": true,
+
+    // ----- Globals -----
+    // false: variable as read-only
+    "globals": {
+        "GithubService": false
+    }
+}

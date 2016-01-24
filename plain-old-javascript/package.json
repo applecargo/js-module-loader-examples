@@ -1,0 +1,16 @@
+{
+  "name": "plain-old-javascript",
+  "description": "Plain old JavaScript example using the Revealing Module Pattern.",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "lite-server --baseDir ./src --baseDir ./node_modules"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/archfirst/js-module-loader-examples.git"
+  },
+  "dependencies": {
+    "jquery": "^2.2.0"
+  }
+}

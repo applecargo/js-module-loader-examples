@@ -4,6 +4,7 @@
 *.gpState
 *.suo
 bin
+dist
 obj
 /packages
 

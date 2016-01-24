@@ -1,0 +1,17 @@
+{
+  "name": "javascript-commonjs-webpack-jquery",
+  "description": "JavaScript-CommonJS-webpack-jQuery example",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack && cp ./src/*.html ./dist && cp ./src/*.css ./dist",
+    "start": "lite-server --files './dist/**/*' --baseDir ./dist"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/archfirst/js-module-loader-examples.git"
+  },
+  "dependencies": {
+    "jquery": "^2.2.0"
+  }
+}

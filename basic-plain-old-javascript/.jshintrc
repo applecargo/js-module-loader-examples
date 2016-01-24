@@ -7,6 +7,6 @@
     // ----- Globals -----
     // false: variable as read-only
     "globals": {
-        "GithubService": false
+        "githubService": false
     }
 }

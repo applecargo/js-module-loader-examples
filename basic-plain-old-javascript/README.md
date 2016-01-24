@@ -1,10 +1,10 @@
-plain-old-javascript
-====================
+Basic Plain Old JavaScript
+==========================
 ```
 JavaScript flavor: JavaScript
 Module Spec:       Revealing Module Pattern
 Module Loader:     None
-Package Manager:   npm
+UI Framework:      jQuery
 ```
 
 Running the application

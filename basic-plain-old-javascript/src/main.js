@@ -20,7 +20,7 @@ function showRepos() {
         $('#orgname-error').empty();
     }
 
-    GithubService.getRepos(orgname, renderRepos);
+    githubService.getRepos(orgname, renderRepos);
 }
 
 function renderRepos(repos) {

@@ -1,6 +1,6 @@
 'use strict';
 
-window.GithubService = (function() {
+window.githubService = (function() {
 
     var api = 'https://api.github.com';
 

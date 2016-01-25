@@ -109,13 +109,6 @@
     // true: Tolerate use of `== null`
     "eqnull": false,
 
-    // true: Allow ES5 syntax (ex: getters and setters)
-    // Setting explicitly to true throws a warning: "ES5 option is now set per default"
-    // "es5": true,
-
-    // true: Allow ES.next (ES6) syntax (ex: `const`)
-    "esnext": true,
-
     // true: Tolerate use of `eval` and `new Function()`
     "evil": false,
 
@@ -201,13 +194,13 @@
     "jquery": false,
 
     // Mocha
-    "mocha": true,
+    "mocha": false,
 
     // MooTools
     "mootools": false,
 
     // Node.js
-    "node": true,
+    "node": false,
 
     // Widely adopted globals (escape, unescape, etc)
     "nonstandard": false,

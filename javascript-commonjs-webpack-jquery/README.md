@@ -18,14 +18,6 @@ var githubService = require('./github.service.js');
 
 webpack can be configured using the file `webpack.config.js`, where you can specifiy the entry point of your application, the output file and several other options.
 
-Setup
------
-Install webpack globally.
-
-```bash
-$ npm install webpack -g
-```
-
 Running the application
 -----------------------
 ```bash

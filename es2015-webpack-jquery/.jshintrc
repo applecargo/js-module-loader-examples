@@ -1,0 +1,14 @@
+{
+    "extends": "../.jshintrc",
+
+    // true: Requires all functions run in ES5 Strict Mode
+    "strict": false,
+
+    // ECMAScript version to which the code must adhere: 3, 5 or 6
+    "esversion": 6,
+
+    // ----- Globals -----
+    // false: variable as read-only
+    "globals": {
+    }
+}

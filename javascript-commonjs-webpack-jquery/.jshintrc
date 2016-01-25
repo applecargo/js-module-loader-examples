@@ -1,6 +1,9 @@
 {
     "extends": "../.jshintrc",
 
+    // Node.js (CommonJS module format)
+    "node": true,
+
     // ----- Globals -----
     // false: variable as read-only
     "globals": {

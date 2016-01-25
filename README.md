@@ -12,15 +12,10 @@ If there is a module specification/loader that is not covered by this project an
 
 ## Common Setup
 
-Before running the applications in any sub-folder, we recommend that you to set up [lite-server](https://github.com/johnpapa/lite-server), a lightweight web server that will serve your application and also refresh it as you make code changes.
+Before running the applications in any sub-folder, you must install [lite-server](https://github.com/johnpapa/lite-server), a lightweight web server that will serve your application and also refresh it as you make code changes.
 
 ```bash
 $ npm install lite-server -g
 ```
 
-Once installed, you can generally change your directory to any of the subfolders and run the app using the following commands:
-
-```bash
-$ npm install
-$ npm start
-```
+Once installed, change your directory to any of the subfolders and run the application by following the instructions in that subfolder.

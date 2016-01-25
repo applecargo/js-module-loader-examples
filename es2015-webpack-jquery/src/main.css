@@ -1,0 +1,98 @@
+/* ---- General ----- */
+/* Reset key html elements */
+html, body, div, h1, p {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Set up a default font and some padding to provide breathing room */
+body {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    padding: 24px;
+}
+
+h1 {
+    margin-bottom: 24px;
+}
+
+.pull-right {
+    text-align: right;
+}
+
+/* ---- Toolbar ----- */
+.toolbar {
+    margin-bottom: 8px;
+}
+
+.toolbar input {
+    padding: 8px;
+    outline: none;
+    border: 1px solid #B0CFE0;
+}
+
+.toolbar button {
+    background-color: #216288;
+    border: 1px solid #17445E;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 8px 18px;
+    text-decoration: none;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+
+.toolbar button:hover {
+    background-color: #28739E;
+}
+
+#orgname {
+    width: 250px;
+}
+
+#orgname-error {
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+/* ---- Table ----- */
+/* See https://www.smashingmagazine.com/2008/08/top-10-css-table-designs */
+.mintable {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    background: #fff;
+    width: 360px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.mintable th {
+    font-size: 14px;
+    font-weight: normal;
+    color: #216288;
+    padding: 10px 8px;
+    border-bottom: 2px solid #216288;
+}
+
+.mintable td {
+    border-bottom: 1px solid #ccc;
+    color: #669;
+    padding: 6px 8px;
+}
+
+.mintable tbody tr:hover td {
+    color: #009;
+}
+
+.mintable tfoot td {
+    background-color: #EDFFFF;
+}

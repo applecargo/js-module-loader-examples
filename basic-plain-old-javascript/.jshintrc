@@ -4,6 +4,9 @@
     // jQuery
     "jquery": true,
 
+    // Node.js - set to true simply to avoid the warning - Use the function form of "use strict"
+    "node": true,
+
     // ----- Globals -----
     // false: variable as read-only
     "globals": {

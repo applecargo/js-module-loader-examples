@@ -9,7 +9,7 @@ UI Framework:      jQuery
 
 Concepts
 --------
-The ES2015-webpack workflow is very similar to the JavaScript-CommonJS-webpack workflow. The only difference is that we will use the Babel loader to convert the ES2015 module syntax to ES5 syntax. [webpack](http://webpack.github.io/) starts at `src/main.js`, the main entry point of our app and bundles it along with all the dependencies into a single file. The dependencies are specified using the ES2015 `import` statements. For example,
+The ES2015-webpack workflow is very similar to the JavaScript-CommonJS-webpack workflow. The only difference is that we are using the Babel loader to convert ES2015 module syntax to ES5 syntax. [webpack](http://webpack.github.io/) starts at `main.js`, the main entry point of our app and bundles it along with all the dependencies into a single file. The dependencies are specified using the ES2015 `import` statements. For example,
 
 ```javascript
 import $ from 'jquery';

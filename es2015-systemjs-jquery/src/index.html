@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Github Repository Viewer</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <h1>Github Repository Viewer</h1>
+
+    <div class="toolbar">
+        <input id="orgname" placeholder="Organization Name (e.g. archfirst)" />
+        <button id="show-repos">Show Repos</button>
+        <div id="orgname-error"></div>
+    </div>
+
+    <table class="mintable">
+        <thead>
+            <tr>
+                <th>Repository</th>
+                <th class="pull-right">Stars</th>
+                <th class="pull-right">Forks</th>
+            </tr>
+        </thead>
+        <tbody id="repotbody">
+        </tbody>
+        <tfoot id="repotfoot">
+        </tfoot>
+    </table>
+
+    <!-- webpack will bundle all JavaScript into one file -->
+    <script src="systemjs/dist/system.src.js"></script>
+    <script>
+        System.config({
+            "paths": {
+                "jquery": "jquery/dist/jquery.js"
+            }
+        });
+        System.import("main.js");
+    </script>
+</body>
+</html>

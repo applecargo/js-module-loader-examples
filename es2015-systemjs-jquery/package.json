@@ -1,0 +1,23 @@
+{
+  "name": "es2015-systemjs-jquery",
+  "description": "ES2015-SystemJS-jQuery example",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "babel src --out-dir dist && cp ./src/*.html ./dist && cp ./src/*.css ./dist",
+    "start": "lite-server --files './dist/**/*' --baseDir ./dist --baseDir ./node_modules"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/archfirst/js-module-loader-examples.git"
+  },
+  "dependencies": {
+    "jquery": "^2.2.0",
+    "systemjs": "^0.19.17"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-plugin-transform-es2015-modules-systemjs": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13"
+  }
+}

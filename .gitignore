@@ -6,6 +6,7 @@
 bin
 dist
 obj
+typings
 /packages
 
 # Ignore Node, Bower & Sass

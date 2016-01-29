@@ -9,7 +9,18 @@ UI Framework:      jQuery
 
 Concepts
 --------
-The ES2015-SystemJS workflow involves the use of [babel-cli](https://babeljs.io/docs/usage/cli/) and Babel's [SystemJS plugin](https://babeljs.io/docs/plugins/transform-es2015-modules-systemjs/) to transform ES2015 modules to the SystemJS format. SystemJS is configured right inside `index.html` where we import `main.js`, the main entry point of our app. The dependencies in JavaScript files are specified using the ES2015 `import` statements. For example,
+The ES2015-SystemJS workflow involves the use of [babel-cli](https://babeljs.io/docs/usage/cli/) and Babel's [SystemJS plugin](https://babeljs.io/docs/plugins/transform-es2015-modules-systemjs/) to transform ES2015 modules to the SystemJS format. SystemJS is configured right inside `index.html` where we import `main.js`, the main entry point of our app.
+
+```javascript
+System.config({
+    "paths": {
+        "jquery": "jquery/dist/jquery.js"
+    }
+});
+System.import("main.js");
+```
+
+The dependencies in JavaScript files are specified using the ES2015 `import` statements. For example,
 
 ```javascript
 import $ from 'jquery';

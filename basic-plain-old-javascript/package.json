@@ -3,7 +3,7 @@
   "description": "Plain old JavaScript example using the Revealing Module Pattern",
   "version": "1.0.0",
   "scripts": {
-    "start": "lite-server --files './src/**/*' --baseDir ./src --baseDir ./node_modules"
+    "start": "lite-server"
   },
   "license": "MIT",
   "repository": {

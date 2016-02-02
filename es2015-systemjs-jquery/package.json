@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "babel src --out-dir dist && cp ./src/*.html ./dist && cp ./src/*.css ./dist",
-    "start": "lite-server --files './dist/**/*' --baseDir ./dist --baseDir ./node_modules"
+    "start": "lite-server"
   },
   "license": "MIT",
   "repository": {

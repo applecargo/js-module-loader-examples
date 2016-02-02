@@ -12,10 +12,11 @@ If there is a module specification/loader that is not covered by this project an
 
 ## Common Setup
 
-Before running the applications in any sub-folder, you must install [lite-server](https://github.com/johnpapa/lite-server), a lightweight web server that will serve your application and also refresh it as you make code changes.
+Before running the applications in any sub-folder, you must install [lite-server](https://github.com/johnpapa/lite-server), a lightweight web server that will serve your application and also refresh it as you make code changes. Lite-server depends on [Browsersync](https://www.browsersync.io/) - you will have to install it if you haven't already.
 
 ```bash
-$ npm install lite-server -g
+$ npm install -g browser-sync
+$ npm install -g lite-server
 ```
 
 Once installed, change your directory to any of the subfolders and run the application by following the instructions in that subfolder.
